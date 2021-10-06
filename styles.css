@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+header{
+		background-color: black;
+}
+/*NAVIGATION DESIGN*/
+.wrapper{
+  text-align:center;
+  margin:50px auto;
+}
+
+.tabs{
+  font-size:15px;
+  padding:0px;
+  list-style:none;
+  background:#fff;
+  box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+  display:inline-block;
+  border-radius:50px;
+  position:relative;
+}
+
+.tabs a{
+  text-decoration:none;
+  color: #777;
+  text-transform:uppercase;
+  padding:10px 20px;
+  display:inline-block;
+  position:relative;
+  z-index:1;
+  transition-duration:0.6s;
+}
+
+.tabs a.active{
+  color:#fff;
+}
+
+.tabs a i{
+  margin-right:5px;
+}
+
+.tabs .selector{
+  height:100%;
+  display:inline-block;
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:1;
+  border-radius:50px;
+  transition-duration:0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  background: #05abe0;
+  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
+}
+
+
+
+/*LOGIN PAGE */
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        padding: 40px;  
+        background:  lightgray;  
+        border-radius: 10px ;  
+          
+}  
+  
+label{    
+    font-size: 17px;  
+}  
+#Uname, #Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+#log{  
+    width: 70px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 8px;  
+    padding-left: 7px;  
+    color: Black;  
+	background-color: gray;
+	}
+	
+/* Change styles for span on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+
+/*Logo in the header*/
+.logo {
+display: block;
+margin: auto;
+width: 25%;
+}
+/* Navigation*/
+	ul.topnav {
+	  list-style-type: none;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	ul.topnav li {float: left;}
+
+	ul.topnav li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+	ul.topnav li a.active {background-color: gray;}
+
+	ul.topnav li.right {float: right;}
+
+	@media screen and (max-width: 600px) {
+	  ul.topnav li.right, 
+	  ul.topnav li {float: none;}
+	}
+
+/* SLIDE SHOW GALLERY*/
+img {
+  vertical-align: middle;
+}
+
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column1 {
+  float: left;
+  width: 16.66%;
+  margin-bottom: 25px;
+}
+
+/* Another Six columns side by side */
+.column2 {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.8;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
