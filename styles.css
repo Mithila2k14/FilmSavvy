@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	
+
 }
 header{
 		background-color: black;
@@ -54,7 +54,7 @@ header{
   border-radius:50px;
   transition-duration:0.6s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  
+
   background: #05abe0;
   background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
   background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
@@ -63,39 +63,38 @@ header{
 }
 
 
-
 /*LOGIN PAGE */
-.login{  
-        width: 382px;  
-        overflow: hidden;  
-        margin: auto;  
-        padding: 40px;  
-        background:  lightgray;  
-        border-radius: 10px ;  
-          
-}  
-  
-label{    
-    font-size: 17px;  
-}  
-#Uname, #Pass{  
-    width: 300px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 3px;  
-    padding-left: 8px;  
-}  
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        padding: 40px;
+        background:  lightgray;
+        border-radius: 10px ;
 
-#log{  
-    width: 70px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 8px;  
-    padding-left: 7px;  
-    color: Black;  
+}
+
+label{
+    font-size: 17px;
+}
+#Uname, #Pass, #confirm_password{  
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#log{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 7px;
+    color: Black;
 	background-color: gray;
 	}
-	
+
 /* Change styles for span on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
@@ -105,11 +104,11 @@ label{
 }
 
 /*Logo in the header*/
-.logo {
-display: block;
-margin: auto;
-width: 25%;
-}
+	.logo {
+		display: block;
+		margin: auto;
+		width: 25%;
+	}
 /* Navigation*/
 	ul.topnav {
 	  list-style-type: none;
@@ -134,22 +133,22 @@ width: 25%;
 	ul.topnav li.right {float: right;}
 
 	@media screen and (max-width: 600px) {
-	  ul.topnav li.right, 
+	  ul.topnav li.right,
 	  ul.topnav li {float: none;}
 	}
 
 /* SLIDE SHOW GALLERY*/
-img {
-  vertical-align: middle;
-}
+	img {
+	  vertical-align: middle;
+	}
 
 
 /* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
+	.caption-container {
+	  text-align: center;
+	  background-color: #222;
+	  padding: 2px 16px;
+	  color: white;
 }
 
 .row:after {
@@ -181,3 +180,50 @@ img {
   opacity: 1;
 }
 
+.container{
+	display: inline-block;
+}
+
+div.trailers{
+	display: block;
+		margin: auto;
+}
+.form{
+     width: 300px;
+     margin: 0 auto;
+}
+
+.feedback{
+	width: 450px;
+     margin: 0 auto;	
+}
+
+input[type='text'], input[type='email'],
+input[type='password'], input[type='date']{
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+	 display: inline-block;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color: #0067ab;
+     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+     border: 1px solid #0164a5;
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: #024978;
+}
+
+
+						   
